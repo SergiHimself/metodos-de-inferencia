@@ -1,0 +1,17 @@
+# Definimos las premisas
+premisa1 = True  # Si llueve
+premisa2 = False  # El suelo no está mojado
+
+# Definimos la conclusión
+conclusion = None
+
+# Verificamos las premisas
+if premisa1:
+    if not premisa2:
+        conclusion = "No ha llovido"
+
+# Mostramos la conclusión (si es que se cumplió)
+if conclusion:
+    print(conclusion)
+else:
+    print("No se puede llegar a una conclusión.")
